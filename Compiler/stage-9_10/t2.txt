@@ -1,0 +1,39 @@
+decl
+integer a;
+boolean fun(integer b,e;integer f);
+enddecl
+
+boolean fun(integer b,e;integer f){
+	decl
+	integer c;
+	enddecl
+	beg
+	c=8;
+	write(b);
+	write(a);
+	write(e);
+	write(c);
+	write(f);
+	f=f+1;
+	return true;
+	end
+}
+
+integer main(){
+	decl
+	integer b,d,e,f;
+	enddecl
+	beg
+	b=4;
+	a=5;
+	e=2;
+	f=4;
+	write(b);
+	d=fun(b,e,f);
+	write(d);
+	write(a);
+	write(f);
+	write(a+d);
+	return 0;
+	end
+}

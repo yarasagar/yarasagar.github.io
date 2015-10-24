@@ -1,0 +1,10 @@
+decl
+integer a,b,d[5];
+boolean c;
+enddecl
+a=10;
+b=20;
+c=true;
+write(a+b);
+d[2]=5;
+write(d[2]);

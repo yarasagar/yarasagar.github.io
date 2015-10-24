@@ -1,0 +1,8 @@
+decl
+integer a,d[10],b,n;
+enddecl
+read(n);
+a=0;
+while(a<n) do read(d[a]); a=a+1; endwhile;
+b=0;
+while(b<n) do write(d[b]); b=b+1; endwhile;

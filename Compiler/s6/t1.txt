@@ -1,0 +1,13 @@
+decl
+integer x,y;
+integer z,a[5];
+enddecl
+x=5;
+y=34;
+read(z);
+write(x+y+z);
+a[3]=1;
+a[4]=4;
+write(a[3]+a[4]);
+read(a[2]);
+write(a[2]);

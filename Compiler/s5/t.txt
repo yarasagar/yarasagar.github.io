@@ -1,0 +1,4 @@
+a=3;
+e=5;
+read(b);
+write(a+b);
